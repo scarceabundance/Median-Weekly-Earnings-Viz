@@ -45,3 +45,4 @@ life <-  (c(1,2,3,4,5))
 happiness <-  (c("a","b","c","d","e"))
 table(life, happiness)
 
+##making change to data FOR commit exercise 
