@@ -23,7 +23,7 @@ nbd = as.numeric(cut(neighborrhood,c(0,2,3,4),labels=c(1,2,3)))
 table(nbd)
 
 xyplot(Workers ~ MEW_CL | Year, panel= panel.lm,layout=c(4,1),
-       main = "Change in Workforce Participation and Percent Change in Earnings",
+       main = "ChangeS in Workforce Participation and Percent Change in Earnings",
        sub = "(2016-2017)",
        par.settings = list(par.main.text = list(cex = 1.4, col = "black"), 
                            par.sub.text = list(cex = 1.4, col = "black"), 
@@ -32,7 +32,9 @@ xyplot(Workers ~ MEW_CL | Year, panel= panel.lm,layout=c(4,1),
                            col = c("green", "orange","brown", "red")),
        auto.key = list(space = "right", cex = 0.7, size = 1.7, points = TRUE)
 )
-
+  # HERE IS WHERE YOU MADE CHANGE TO TEST UNDERSTANDING OF GIT PROCESSES 
+  # whwat is git id/ SHA ????
+  
 ?xyplot
 
 library(lattice)
